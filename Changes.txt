@@ -1,3 +1,11 @@
+## 0.52
+
+### Changed
+* Graves no long spawn skeletons
+
+### Fixed
+* Various metal blocks can now be crafted into their ingots
+
 ## 0.51
 
 ### Changed
@@ -10,3 +18,48 @@
 * Removed default Railcraft plate recipes
 * Added IE style recipe for Railcraft copper plates
 * Updated Archimedes ships block black list
+
+## 0.50?
+
+### Changed
+* Updated Optifine to D1
+* Updated Climate Control to 0.5.beta45
+* Updated Biomes O' Plenty to 2.1.0.1889
+* Updated Realistic Terrain Generation to 0.7.0
+* Updated AgriCraft to 1.5.0
+* Updated CodeChickenCore to 1.0.7.47
+* Updated CoFHCore to 3.1.2-325
+* Updated NEI to 1.0.5.118
+* Updated Thermal Foundation to 1.2.3-112
+* Updated bspkrsCore to 6.16
+* Updated Arcane Engineering to 0.2.6
+* Updated Automated Redstone 2.2.1
+* Updated CD4017BE_lib to 2.7.3
+* Updated CoroUtil to 1.1.5
+* Updated Immersive Engineering to 0.7.4
+* Updated Immersive Integration to 0.6.7
+* Updated MalsisCore to 0.14.3
+* Updated MalsisDoors to 1.13.2
+* Updated Zombie Awareness to 1.10
+* Updated Mantle to 0.3.2b
+* Updated Railcraft to 9.9.0.0
+* Updated Storage Drawers to 1.9.4
+*	BoP to 1.1.1
+*	Misc to 1.1.2
+*	Natura to 1.1.1
+
+* Added FastCraft 1.21
+* Added Thaumcraft Inventory Scanning 1.0.11
+* Added StatusEffectHUD 1.27
+* Added NEI Mystcraft Plugin 02.01.09
+*	SpACore 01.05.12
+
+* Changed mystcraft client.persave setting - it's pretty meh both ways, but I don't have lag from live profiling
+* Changed climatecontrol.cfg - hopefully slightly more biome diversity (sorta works)
+* Changed OpenBlocks.cfg - re-enable graves and hangglider :)
+* cofh/world/ThermalFoundation-Ores.cfg - restrict prismarine spawning to oceans, rivers, beaches
+* scripts/OpenBlocks.zs - added new hangglider recipe
+* scripts/Misc.zs - adds recipes for some metal blocks -> ingots.
+
+### Fixed
+* scripts/Harvestcraft.zs - fixes water bucket -> 4 * fresh water recipe

@@ -728,3 +728,19 @@ Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:12>, 3200, <BiomesOPle
 Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:13>, 3200, <BiomesOPlenty:misc:7>, 0.05);
 Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:14>, 3200, <minecraft:dye:1>, 0.05);
 Crusher.addRecipe(<minecraft:string> * 4, <minecraft:wool:15>, 3200, <BiomesOPlenty:misc:9>, 0.05);
+
+# Changes to fix things
+# Iron blocks -> ingots*9
+recipes.addShapeless(<minecraft:iron_ingot> * 9, [<ore:blockIron>]);
+
+# Copper blocks -> ingots*9
+recipes.addShapeless(<TConstruct:materials:9> * 9, [<ore:blockCopper>]);
+
+# Tin blocks -> ingots*9
+recipes.addShapeless(<TConstruct:materials:10> * 9, [<ore:blockTin>]);
+
+# Aluminum blocks -> ingots*9
+recipes.addShapeless(<TConstruct:materials:11> * 9, [<ore:blockAluminum>]);
+
+# Gold blocks -> ingots*9
+recipes.addShapeless(<minecraft:gold_ingot> * 9, [<ore:blockGold>]);
