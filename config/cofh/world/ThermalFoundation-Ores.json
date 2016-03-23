@@ -1,0 +1,634 @@
+{
+    "copper": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+			{"name": "TConstruct:SearedBrick", "metadata": 3, "weight": 90},
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 5},
+			{"name": "gold_ore", "weight": 5}
+		],
+		"clusterSize": 8,
+		"numClusters": 400,
+		"chunkChance": 400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 110,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+    "tin": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "TConstruct:SearedBrick", "metadata": 4},
+		"clusterSize": 8,
+		"numClusters": 350,
+		"chunkChance": 400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+    "silver": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 20}
+        ],
+		"clusterSize": 8,
+		"numClusters": 180,
+		"chunkChance": 800,
+		"minHeight": 0,
+		"veinHeight": 30,
+		"veinDiameter": 65,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "DRY"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+    "lead": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 2, "weight": 5},
+            {"name": "ThermalFoundation:Ore", "metadata": 3, "weight": 80},
+			{"name": "Metallurgy:utility.ore", "weight": 15}
+        ],
+		"clusterSize": 8,
+		"numClusters": 300,
+		"chunkChance": 400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+    "nickel": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 85 },
+			{"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 5},
+			{"name": "iron_ore", "weight": 10 }
+		],
+		"clusterSize": 8,
+		"numClusters": 260,
+		"chunkChance": 400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+    "platinum": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+            {"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 80},
+            {"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 20}
+        ],
+		"clusterSize": 8,
+		"numClusters": 100,
+		"chunkChance": 800,
+		"minHeight": 0,
+		"veinHeight": 20,
+		"veinDiameter": 40,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"sphalerite": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+            {"name": "Metallurgy:precious.ore", "metadata": 0, "weight": 60},
+            {"name": "iron_ore", "metadata": 4, "weight": 30},
+			{"name": "Metallurgy:utility.ore", "weight": 10}
+        ],
+		"clusterSize": 8,
+		"numClusters": 220,
+		"chunkChance": 600,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "SPARSE"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"aluminum": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "TConstruct:SearedBrick", "metadata": 5},
+		"clusterSize": 8,
+		"numClusters": 350,
+		"chunkChance": 400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "PLAINS"},
+			{"type": "dictionary", "entry": "FOREST"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"amethyst": {
+        "template": "uniform",
+        "block": {"name": "BiomesOPlenty:gemOre", "metadata": 0},
+        "clusterSize": 4,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [
+            "all"
+        ],
+        "dimensionRestriction": "whitelist",
+        "dimensions": [
+            1
+        ]
+    },
+	
+	"prismarine": {
+        "template": "underwater",
+        "block": "prismarine:prismBlock",
+        "clusterSize": 10,
+		"sizeVariance": 7,
+        "numClusters": 6,
+		"chunkChance": 6,
+        "minHeight": 0,
+        "maxHeight": 256,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "OCEAN"},
+			{"type": "dictionary", "entry": "RIVER"},
+			{"type": "dictionary", "entry": "BEACH"},
+        ],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+			1
+        ]
+    },
+	
+	"prometheum": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 0},
+		"clusterSize": 8,
+		"numClusters": 350,
+		"chunkChance": 1400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "COLD"},
+			{"type": "dictionary", "entry": "DENSE"},
+			{"type": "dictionary", "entry": "FOREST"},
+			{"type": "dictionary", "entry": "PLAINS"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"deepiron": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 1},
+		"clusterSize": 8,
+		"numClusters": 220,
+		"chunkChance": 1400,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"infuscolium": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 2},
+		"clusterSize": 8,
+		"numClusters": 200,
+		"chunkChance": 1500,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"oureclase": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 4},
+		"clusterSize": 8,
+		"numClusters": 140,
+		"chunkChance": 1500,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "PLAINS"},
+			{"type": "dictionary", "entry": "DRY"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"astralsilver": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 5},
+		"clusterSize": 8,
+		"numClusters": 120,
+		"chunkChance": 1600,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "COLD"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"carmot": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 6},
+		"clusterSize": 8,
+		"numClusters": 100,
+		"chunkChance": 1600,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "MAGICAL"},
+			{"type": "dictionary", "entry": "HOT"},
+			{"type": "dictionary", "entry": "FOREST"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"mithril": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 7},
+		"clusterSize": 8,
+		"numClusters": 100,
+		"chunkChance": 1700,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "COLD"},
+			{"type": "dictionary", "entry": "MAGICAL"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"rubracium": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 8},
+		"clusterSize": 8,
+		"numClusters": 140,
+		"chunkChance": 1700,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "COLD"},
+			{"type": "dictionary", "entry": "MAGICAL"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"orichalcum": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 11},
+		"clusterSize": 8,
+		"numClusters": 100,
+		"chunkChance": 2000,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "LUSH"},
+			{"type": "dictionary", "entry": "WET"},
+			{"type": "dictionary", "entry": "MAGICAL"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"adamantine": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 13},
+		"clusterSize": 8,
+		"numClusters": 100,
+		"chunkChance": 2600,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "COLD"},
+			{"type": "dictionary", "entry": "MAGICAL"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"atlarus": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": {"name": "Metallurgy:fantasy.ore", "metadata": 14},
+		"clusterSize": 8,
+		"numClusters": 100,
+		"chunkChance": 2800,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 100,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "HOT"},
+			{"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "MAGICAL"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+	
+	"bitumen": {
+		"template": "uniform",
+		"block": [
+			{"name": "coal_ore", "weight": 60},
+			{"name": "Metallurgy:utility.ore", "weight": 10},
+			{"name": "Metallurgy:utility.ore", "metadata": 4, "weight": 30}
+		],
+        "clusterSize": 32,
+        "numClusters": 18,
+        "minHeight": 10,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "WET"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"apatite": {
+		"template": "uniform",
+		"block": {"name": "Metallurgy:utility.ore", "metadata": 1},
+        "clusterSize": 32,
+        "numClusters": 2,
+        "minHeight": 10,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "HOT"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"potash": {
+		"template": "uniform",
+		"block": [
+			{"name": "Metallurgy:utility.ore", "metadata": 5, "weight": 70},
+			{"name": "Metallurgy:utility.ore", "metadata": 2, "weight": 30}
+		],
+        "clusterSize": 32,
+        "numClusters": 2,
+        "minHeight": 10,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "SPARSE"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"magnesium": {
+		"template": "uniform",
+		"block": {"name": "Metallurgy:utility.ore", "metadata": 3},
+        "clusterSize": 32,
+        "numClusters": 2,
+        "minHeight": 10,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "SPARSE"},
+			{"type": "dictionary", "entry": "MOUNTAIN"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"salt": {
+        "template": "uniform",
+        "block": "harvestcraft:salt",
+        "clusterSize": 32,
+        "numClusters": 4,
+        "minHeight": 10,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "BEACH"},
+			{"type": "dictionary", "entry": "OCEAN"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+}

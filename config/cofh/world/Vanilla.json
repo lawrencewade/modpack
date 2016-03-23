@@ -1,0 +1,208 @@
+{
+    "dirt": {
+        "template": "uniform",
+        "block": "dirt",
+        "material": "minecraft:stone",
+        "clusterSize": 32,
+        "numClusters": 20,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "gravel": {
+        "template": "uniform",
+        "block": "gravel",
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 0,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "coal": {
+		"template": "uniform",
+		"block": [
+			{"name": "coal_ore", "weight": 90 },
+			{"name": "Metallurgy:utility.ore", "weight": 10}
+		],
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 128,
+        "retrogen": "false",
+        "biomeRestriction": "blacklist",
+        "biomes": [
+			{"type": "dictionary", "entry": "WET"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	"iron": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 10 },
+			{"name": "ThermalFoundation:Ore", "metadata": 5, "weight": 5},
+			{"name": "iron_ore", "weight": 85 }
+		],
+		"clusterSize": 8,
+		"numClusters": 220,
+		"chunkChance": 500,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 65,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+	},
+	"pyrite": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+			{"name": "iron_ore", "weight": 75 },
+			{"name": "Metallurgy:utility.ore", "weight": 25}
+		],
+		"clusterSize": 8,
+		"numClusters": 220,
+		"chunkChance": 500,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 65,
+		"verticalDensity": 15,
+		"horizontalDensity": 15,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+	},
+    "gold": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": [
+			{"name": "gold_ore", "weight": 80},
+			{"name": "TConstruct:SearedBrick", "metadata": 3, "weight": 15},
+			{"name": "ThermalFoundation:Ore", "metadata": 4, "weight": 5}
+		],
+		"clusterSize": 8,
+		"numClusters": 120,
+		"chunkChance": 400,
+		"minHeight": 0,
+		"veinHeight": 20,
+		"veinDiameter": 65,
+		"verticalDensity": 10,
+		"horizontalDensity": 10,
+		"retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "DRY"}
+		],
+		"dimensionRestriction": "blacklist",
+		"dimensions": [
+			-1,
+			1
+		]
+    },
+    "redstone": {
+        "template": "uniform",
+        "block": "redstone_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 7,
+        "numClusters": 8,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "diamond": {
+        "template": "uniform",
+        "block": "diamond_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 2,
+        "minHeight": 0,
+        "maxHeight": 16,
+        "retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "lapis": {
+        "template": "normal",
+        "block": "lapis_ore",
+        "material": "minecraft:stone",
+        "clusterSize": 8,
+        "numClusters": 4,
+        "meanHeight": 16,
+        "maxVariance": 16,
+        "retrogen": "true",
+		"biomeRestriction": "whitelist",
+		"biomes": [
+		    {"type": "dictionary", "entry": "DRY"},
+			{"type": "dictionary", "entry": "HOT"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "quartz": {
+		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
+		"block": "quartz_ore",
+		"clusterSize": 8,
+		"numClusters": 220,
+		"chunkChance": 200,
+		"minHeight": 0,
+		"veinHeight": 80,
+		"veinDiameter": 65,
+		"verticalDensity": 10,
+		"horizontalDensity": 10,
+		"retrogen": "true",
+		"biomeRestriction": "none",
+		"biomes": [],
+		"dimensionRestriction": "whitelist",
+		"dimensions": [
+			-1
+		]
+    }
+}

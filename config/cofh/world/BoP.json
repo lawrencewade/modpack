@@ -1,0 +1,121 @@
+{
+    "Limestone": {
+        "template": "uniform",
+        "block": "BiomesOPlenty:rocks",
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "blacklist",
+        "biomes": [
+			{"type": "dictionary", "entry": "WET"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Siltstone": {
+        "template": "underwater",
+        "block": {"name": "BiomesOPlenty:rocks", "metadata": 2},
+        "clusterSize": 13,
+		"sizeVariance": 4,
+        "numClusters": 3,
+        "minHeight": 20,
+        "maxHeight": 110,
+        "retrogen": "true",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+    "Shale": {
+        "template": "uniform",
+        "block": {"name": "BiomesOPlenty:rocks", "metadata": 4},
+        "material": "stone",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "WET"},
+			{"type": "dictionary", "entry": "SNOWY"},
+			{"type": "dictionary", "entry": "LUSH"},
+			{"type": "dictionary", "entry": "OCEAN"},
+			{"type": "dictionary", "entry": "BEACH"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"diorite": {
+        "template": "uniform",
+        "block": "blockenvy:stone_diorite",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"},
+			{"type": "dictionary", "entry": "FOREST"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"andesite": {
+        "template": "uniform",
+        "block": "blockenvy:stone_andesite",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+			{"type": "dictionary", "entry": "MOUNTAIN"},
+			{"type": "dictionary", "entry": "HILLS"}
+		],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    },
+	
+	"granite": {
+        "template": "uniform",
+        "block": "blockenvy:stone_granite",
+        "clusterSize": 32,
+        "numClusters": 10,
+        "minHeight": 10,
+        "maxHeight": 80,
+        "retrogen": "false",
+        "biomeRestriction": "none",
+        "biomes": [],
+        "dimensionRestriction": "blacklist",
+        "dimensions": [
+            -1,
+            1
+        ]
+    }
+
+
+}

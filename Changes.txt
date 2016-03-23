@@ -1,0 +1,12 @@
+## 0.51
+
+### Changed
+* Doubled fertilizer output of rotten food
+* Removed fast zombies
+* Changed timber framed blocks recipe
+
+### Fixed
+* Added IE-Railcraft plate conversion recipes
+* Removed default Railcraft plate recipes
+* Added IE style recipe for Railcraft copper plates
+* Updated Archimedes ships block black list
