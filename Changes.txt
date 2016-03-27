@@ -1,3 +1,13 @@
+## 0.53
+
+### Changed
+* Removed food spoiling
+* Added Iron Chests
+* 	Added Iron Chest Minecarts
+
+### Fixed
+* Fixed more block to ingot recipes
+
 ## 0.52
 
 ### Changed

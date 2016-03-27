@@ -744,3 +744,6 @@ recipes.addShapeless(<TConstruct:materials:11> * 9, [<ore:blockAluminum>]);
 
 # Gold blocks -> ingots*9
 recipes.addShapeless(<minecraft:gold_ingot> * 9, [<ore:blockGold>]);
+
+# Electrum blocks -> ingots*9
+recipes.addShapeless(<ThermalFoundation:material:71> * 9, [<ThermalFoundation:Storage:7>]);
