@@ -9,3 +9,22 @@ recipes.addShapeless(<minecraft:glass_bottle>,[<minecraft:potion:0>]);
 recipes.addShapeless(<minecraft:glass_bottle>,[<enviromine:badWaterBottle>]);
 recipes.addShapeless(<minecraft:glass_bottle>,[<enviromine:saltWaterBottle>]);
 recipes.addShapeless(<minecraft:glass_bottle>,[<enviromine:coldWaterBottle>]);
+
+# Polish BoP rocks
+recipes.addShaped(<BiomesOPlenty:rocks:1> * 4,
+[[<BiomesOPlenty:rocks:0>,<BiomesOPlenty:rocks:0>],
+[<BiomesOPlenty:rocks:0>,<BiomesOPlenty:rocks:0>]]);
+
+recipes.addShaped(<BiomesOPlenty:rocks:3> * 4,
+[[<BiomesOPlenty:rocks:2>,<BiomesOPlenty:rocks:2>],
+[<BiomesOPlenty:rocks:2>,<BiomesOPlenty:rocks:2>]]);
+
+recipes.addShaped(<BiomesOPlenty:rocks:5> * 4,
+[[<BiomesOPlenty:rocks:4>,<BiomesOPlenty:rocks:4>],
+[<BiomesOPlenty:rocks:4>,<BiomesOPlenty:rocks:4>]]);
+
+# Add saddle recipe
+recipes.addShaped(<minecraft:saddle>,
+[[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>],
+[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>],
+[<minecraft:leather>, null, <minecraft:leather>]]);

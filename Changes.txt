@@ -1,3 +1,14 @@
+## 0.6
+
+### Added
+* Glowstone and redstone excavator veins
+* Recipe for saddle
+* Recipe to polish BoP stones
+
+### Fixed
+* Lead and Nickel block to ingot recipes
+* Replaced thermal expansion with metallurgy sulfur in crusher recipes
+
 ## 0.53
 
 ### Changed

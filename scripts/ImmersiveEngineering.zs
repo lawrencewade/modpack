@@ -15,6 +15,33 @@ import mods.tconstruct.Casting;
 var nugget = null;
 
 #################################################################################
+#-----Fix Saltpeter-------------------------------------------------------------#
+#################################################################################
+
+recipes.remove(<ThermalFoundation:material:17>);
+recipes.addShapeless(<Metallurgy:utility.item:2>, [<ore:oreSaltpeter>, <ImmersiveEngineering:tool:0>]);
+recipes.addShapeless(<Metallurgy:utility.item:2> * 9, [<ore:blockSaltpeter>]);
+
+Crusher.removeRecipe(<ThermalFoundation:material:17>);
+Crusher.addRecipe(<Metallurgy:utility.item:2> * 2, <ore:oreSaltpeter>, 6000, null, 0);
+
+#################################################################################
+#-----Fix Sulfur----------------------------------------------------------------#
+#################################################################################
+
+recipes.remove(<Metallurgy:utility.item:0>);
+recipes.addShapeless(<Metallurgy:utility.item:0>, [<ore:oreSulfur>, <ImmersiveEngineering:tool:0>]);
+recipes.addShapeless(<Metallurgy:utility.item:0> * 9, [<ore:blockSulfur>]);
+
+Crusher.removeRecipe(<Metallurgy:utility.item:0>);
+Crusher.removeRecipe(<minecraft:blaze_powder>);
+Crusher.removeRecipe(<minecraft:quartz>);
+
+Crusher.addRecipe(<Metallurgy:utility.item:0> * 2, <ore:oreSulfur>, 6000, null, 0);
+Crusher.addRecipe(<minecraft:blaze_powder> * 4, <minecraft:blaze_rod>, 3200, <Metallurgy:utility.item:0>, 0.5);
+Crusher.addRecipe(<minecraft:quartz> * 3, <minecraft:quartz_ore>, 6000, <Metallurgy:utility.item:0>, 0.15);
+
+#################################################################################
 #-----Fix Copper----------------------------------------------------------------#
 #################################################################################
 
@@ -135,6 +162,7 @@ furnace.addRecipe(<ThermalFoundation:material:67>,<ore:oreLead>);
 furnace.addRecipe(<ThermalFoundation:material:67>,<ore:dustLead>);
 recipes.remove(<ore:ingotLead>);
 recipes.addShapeless(<ThermalFoundation:material:67>,[nugget, nugget, nugget, nugget, nugget, nugget, nugget, nugget, nugget]);
+recipes.addShapeless(<ThermalFoundation:material:67>, [<ore:blockLead>]);
 
 // Thaumcraft native copper include
 furnace.addRecipe(<ThermalFoundation:material:67> * 2, <Thaumcraft:ItemNugget:20>);
@@ -164,6 +192,7 @@ furnace.addRecipe(<ThermalFoundation:material:68>,<ore:oreNickel>);
 furnace.addRecipe(<ThermalFoundation:material:68>,<ore:dustNickel>);
 recipes.remove(<ore:ingotNickel>);
 recipes.addShapeless(<ThermalFoundation:material:68>,[nugget, nugget, nugget, nugget, nugget, nugget, nugget, nugget, nugget]);
+recipes.addShapeless(<ThermalFoundation:material:68>, [<ore:blockNickel>]);
 
 ################################################################################
 #-----Iron---------------------------------------------------------------------#
@@ -233,8 +262,8 @@ ArcFurnace.addRecipe(<minecraft:gold_ingot> * 3, <Thaumcraft:ItemNugget:31>, <Im
 
 # Crusher
 Crusher.removeRecipe(<ImmersiveEngineering:metal:13>);
-Crusher.addRecipe(<Metallurgy:precious.dust:1> * 2, <ore:oreSilver>, 6000, null, 0);
-Crusher.addRecipe(<Metallurgy:precious.dust:1> * 1, <ore:ingotSilver>, 3600, null, 0);
+Crusher.addRecipe(<ThermalFoundation:material:34> * 2, <ore:oreSilver>, 6000, null, 0);
+Crusher.addRecipe(<ThermalFoundation:material:34> * 1, <ore:ingotSilver>, 3600, null, 0);
 
 # Arc Furnace
 ArcFurnace.removeRecipe(<ImmersiveEngineering:metal:3>);
@@ -242,7 +271,7 @@ ArcFurnace.addRecipe(<ThermalFoundation:material:66> * 2, <ore:oreSilver>, <Imme
 ArcFurnace.addRecipe(<ThermalFoundation:material:66> * 1, <ore:dustSilver>, null, 100, 512, [], "");
 
 # Engineer's Hammer
-recipes.addShapeless(<Metallurgy:precious.dust:1>, [<ore:oreSilver>, <ImmersiveEngineering:tool:0>]);
+recipes.addShapeless(<ThermalFoundation:material:34>, [<ore:oreSilver>, <ImmersiveEngineering:tool:0>]);
 
 # Dust
 
@@ -258,7 +287,7 @@ recipes.addShapeless(<ThermalFoundation:material:66>,[nugget, nugget, nugget, nu
 
 # Thaumcraft
 furnace.addRecipe(<ThermalFoundation:material:66>* 2, <Thaumcraft:ItemNugget:19>);
-Crusher.addRecipe(<Metallurgy:precious.dust:1> * 3, <Thaumcraft:ItemNugget:19>, 6000, null, 0);
+Crusher.addRecipe(<ThermalFoundation:material:34> * 3, <Thaumcraft:ItemNugget:19>, 6000, null, 0);
 ArcFurnace.addRecipe(<ThermalFoundation:material:66> * 3, <Thaumcraft:ItemNugget:19>, <ImmersiveEngineering:material:13>, 200, 512, [], "");
 
 ################################################################################
@@ -675,6 +704,11 @@ Excavator.getMineral("Coal").addOre("oreTanzanite", 0.01);
 Excavator.getMineral("Copper").addOre("oreMalachite", 0.025);
 Excavator.getMineral("Coal").addOre("oreSapphire", 0.01);
 Excavator.getMineral("Coal").addOre("oreBitumen", 0.3);
+
+// Vanilla
+Excavator.addMineral("Glowstone", 20, 2, ["glowstone"], [100], [-1], false);
+Excavator.addMineral("Redstone", 15, 10, ["oreRedstone"], [100], [-1, 1], true);
+Crusher.addRecipe(<minecraft:cobblestone>, <minecraft:stone>, 6000, null, 0);
 
 #################################################################################
 #-------------------------------------------------------------------------------#
