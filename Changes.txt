@@ -1,3 +1,14 @@
+## 0.6.1
+
+### Changes
+* Changed quartz generation back to vanilla (retrogen enabled)
+* Amber ore dict to allow Thaum amber blocks from BoP amber
+* Added crusher recipes for Thaumcraft shards
+* Allow graves to overwrite blocks after a particular bad accident
+
+### Fixed
+* Fixed electrum and bronze dust crafting not giving proper returns
+
 ## 0.6
 
 ### Added

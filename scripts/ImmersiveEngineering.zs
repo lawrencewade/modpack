@@ -137,7 +137,7 @@ recipes.addShapeless(<ThermalFoundation:material:71> ,[nugget, nugget, nugget, n
 
 // Dust
 recipes.remove(<ore:dustElectrum>);
-recipes.addShapeless(<ThermalFoundation:material:39>, [<ore:dustGold>, <ore:dustSilver>]);
+recipes.addShapeless(<ThermalFoundation:material:39> * 2, [<ore:dustGold>, <ore:dustSilver>]);
 
 #################################################################################
 #-----Fix Lead------------------------------------------------------------------#
@@ -609,7 +609,7 @@ ArcFurnace.addRecipe(<Metallurgy:brass.ingot> * 1, <ore:dustBrass>, null, 100, 5
 furnace.remove(<ore:ingotBronze>);
 furnace.addRecipe(<TConstruct:materials:13>,<ore:dustBronze>);
 recipes.remove(<ore:dustBronze>);
-recipes.addShapeless(<Metallurgy:base.dust:3>, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>]);
+recipes.addShapeless(<Metallurgy:base.dust:3> * 4, [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustTin>]);
 
 #################################################################################
 #-------------------------------------------------------------------------------#
@@ -781,3 +781,11 @@ recipes.addShapeless(<minecraft:gold_ingot> * 9, [<ore:blockGold>]);
 
 # Electrum blocks -> ingots*9
 recipes.addShapeless(<ThermalFoundation:material:71> * 9, [<ThermalFoundation:Storage:7>]);
+
+# Add crusher recipes for Thaumcraft shards
+Crusher.addRecipe(<Thaumcraft:ItemShard:0> * 2, <Thaumcraft:blockCustomOre:1>, 6000, null, 0); # Air
+Crusher.addRecipe(<Thaumcraft:ItemShard:1> * 2, <Thaumcraft:blockCustomOre:2>, 6000, null, 0); # Fire
+Crusher.addRecipe(<Thaumcraft:ItemShard:2> * 2, <Thaumcraft:blockCustomOre:3>, 6000, null, 0); # Water
+Crusher.addRecipe(<Thaumcraft:ItemShard:3> * 2, <Thaumcraft:blockCustomOre:4>, 6000, null, 0); # Earth
+Crusher.addRecipe(<Thaumcraft:ItemShard:4> * 2, <Thaumcraft:blockCustomOre:5>, 6000, null, 0); # Order
+Crusher.addRecipe(<Thaumcraft:ItemShard:5> * 2, <Thaumcraft:blockCustomOre:6>, 6000, null, 0); # Entropy

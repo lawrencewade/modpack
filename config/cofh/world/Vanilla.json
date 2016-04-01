@@ -187,22 +187,19 @@
         ]
     },
     "quartz": {
-		"template": {"type": "fractal", "generator": "large-vein", "sparse": false},
-		"block": "quartz_ore",
-		"clusterSize": 8,
-		"numClusters": 220,
-		"chunkChance": 200,
-		"minHeight": 0,
-		"veinHeight": 80,
-		"veinDiameter": 65,
-		"verticalDensity": 10,
-		"horizontalDensity": 10,
-		"retrogen": "true",
-		"biomeRestriction": "none",
-		"biomes": [],
-		"dimensionRestriction": "whitelist",
-		"dimensions": [
-			-1
-		]
+        "template": "uniform",
+        "block": "quartz_ore",
+        "material": "minecraft:netherrack",
+        "clusterSize": 13,
+        "numClusters": 16,
+        "minHeight": 10,
+        "maxHeight": 118,
+        "retrogen": "true",
+        "biomeRestriction": "whitelist",
+        "biomes": [
+            {"type": "dictionary", "entry": "NETHER"}
+        ],
+        "dimensionRestriction": "none",
+        "dimensions": []
     }
 }

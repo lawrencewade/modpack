@@ -28,3 +28,10 @@ recipes.addShaped(<minecraft:saddle>,
 [[<minecraft:leather>,<minecraft:leather>,<minecraft:leather>],
 [<minecraft:leather>,<minecraft:leather>,<minecraft:leather>],
 [<minecraft:leather>, null, <minecraft:leather>]]);
+
+# Ore dict amber
+<ore:gemAmber>.add(<BiomesOPlenty:gems:7>);
+<ore:gemAmber>.add(<Thaumcraft:ItemResource:6>);
+
+recipes.removeShaped(<Thaumcraft:blockCosmeticOpaque:0>);
+recipes.addShaped(<Thaumcraft:blockCosmeticOpaque:0>, [[<ore:gemAmber>, <ore:gemAmber>], [<ore:gemAmber>, <ore:gemAmber>]]);
