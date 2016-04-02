@@ -1,3 +1,17 @@
+## 0.6.2
+
+### Changes
+* Made pyrotheum hotter (bucket N/A->200.0C, tile 200.0->300.0C)
+* Camelpacks can now be fully refilled with a water bucket
+
+### Fixes
+* Allow pyrotheum, cryotheum to get pulled out of smeltery into buckets
+* Give cryotheum temperature data (bucket=-50.0C, tile=-100.0C)
+* Camelpacks can no longer be added on to other camelpacks (disabled but still works ugh)
+
+## Added
+* Stained clay can now be 'cleaned' in crafting grid
+
 ## 0.6.1
 
 ### Changes

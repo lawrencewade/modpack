@@ -35,3 +35,10 @@ recipes.addShaped(<minecraft:saddle>,
 
 recipes.removeShaped(<Thaumcraft:blockCosmeticOpaque:0>);
 recipes.addShaped(<Thaumcraft:blockCosmeticOpaque:0>, [[<ore:gemAmber>, <ore:gemAmber>], [<ore:gemAmber>, <ore:gemAmber>]]);
+
+# Get Gelid Cryotheum and Blazing Pyrotheum out of the smeltery
+Casting.addTableRecipe(<ThermalFoundation:bucket:3>, <liquid:pyrotheum> * 1000, <minecraft:bucket>, true, 20);
+Casting.addTableRecipe(<ThermalFoundation:bucket:4>, <liquid:cryotheum> * 1000, <minecraft:bucket>, true, 20);
+
+# "Cleaning" stained clay
+recipes.addShapeless(<minecraft:hardened_clay>, [<minecraft:stained_hardened_clay:*>]);
