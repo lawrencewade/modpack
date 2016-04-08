@@ -23,3 +23,4 @@
 	c. Minimum 20 square blocks inside
 	d. Nearby access to a public crafting table
 	e. Nearby access to food/food processing NPC
+	f. Atleast 1 chest
