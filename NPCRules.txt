@@ -1,0 +1,25 @@
+1. Settlements
+	a. Atleast 10 NPCs
+	b. Internally connected by roads or rail
+		i. Rails must have cargo carts and railcraft engine on them
+2. Food
+	a. Quantity of Food Sources - 
+	Meet one of the following requirements
+		i. 15 food crops
+		ii. 2 cows
+		iii. 3 pigs/sheep
+		iv. 1 mooshroom
+	b. Validity of Food Sources - 
+	Meet all of the following requirements - 
+		i. The settlement possesses the items required to process the food into a dish (ex. mortar and pestle for wheat)
+		ii. The settlement has additional crops required to turn the food into a dish (ex. lettuce to make wraps with tofu)
+		iii. There is an npc in the village whose "job" it is to process the food.
+	In order for the crop/animal to count the settlement needs to have the items required to process the crop/animal and additional ingredients to make food.  For example if you are growing soy you also require a presser which turns it into tofu and another crop such as lettuce to make a dish with it (in this case lettuce wraps)
+3. Water
+	a. Open water sources required by the settlement is equal to the number of NPCs multiplied by 4
+4. Shelter (where the NPC "lives")
+	a. 1 Bed
+	b. Atleast 2 rooms/distinct areas
+	c. Minimum 20 square blocks inside
+	d. Nearby access to a public crafting table
+	e. Nearby access to food/food processing NPC
