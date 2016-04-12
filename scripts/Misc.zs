@@ -1,3 +1,5 @@
+import mods.tconstruct.Casting;
+
 # Add a use for rotten food -> fertilizer!
 recipes.addShapeless(<Metallurgy:fertilizer> * 2, [<enviromine:rottenFood>, <enviromine:rottenFood>, <enviromine:rottenFood>, <enviromine:rottenFood>]);
 
@@ -42,3 +44,7 @@ Casting.addTableRecipe(<ThermalFoundation:bucket:4>, <liquid:cryotheum> * 1000, 
 
 # "Cleaning" stained clay
 recipes.addShapeless(<minecraft:hardened_clay>, [<minecraft:stained_hardened_clay:*>]);
+
+# Change Recipe for "Polished Obsidian" since it conflicts Thaumcraft's "Obsidian Tile"
+recipes.remove(<blockenvy:stone_obsidian_smooth>);
+recipes.addShapeless(<blockenvy:stone_obsidian_smooth>, [<minecraft:obsidian>]);
