@@ -1,3 +1,11 @@
+## 0.6.4
+
+### Fixes
+* Removed oak wood storage drawers overriding other woods
+
+### Added
+* Recipes for pam's pear and persimmom saplings using BoP items
+
 ## 0.6.3
 
 ### Fixes

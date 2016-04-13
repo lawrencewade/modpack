@@ -48,3 +48,8 @@ recipes.addShapeless(<minecraft:hardened_clay>, [<minecraft:stained_hardened_cla
 # Change Recipe for "Polished Obsidian" since it conflicts Thaumcraft's "Obsidian Tile"
 recipes.remove(<blockenvy:stone_obsidian_smooth>);
 recipes.addShapeless(<blockenvy:stone_obsidian_smooth>, [<minecraft:obsidian>]);
+
+
+# Harvestcraft saplings
+recipes.addShapeless(<harvestcraft:pampearSapling>,[<minecraft:sapling:0>, <BiomesOPlenty:food:12>]);
+recipes.addShapeless(<harvestcraft:pampersimmonSapling>, [<minecraft:sapling:3>, <BiomesOPlenty:food:8>]);
