@@ -1,3 +1,18 @@
+## 0.7.0
+
+### Changes
+* Updated Immersive Engineering to 0.7.5
+* Updated Optifine to D3
+* Updated Fastcraft to 1.23
+* Disabled Blitz, Basalz spawns
+* Reduced Blizz spawns
+* Disabled Angry Zombie spawns to maintain control
+
+
+### Added
+* Advnaced Spawn Control 0.9.1
+	* BnBGamingLib 2.3.2
+
 ## 0.6.4
 
 ### Fixes
