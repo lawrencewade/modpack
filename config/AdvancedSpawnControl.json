@@ -1,0 +1,180 @@
+{
+  "Print All Registered Entities": true,
+  "Monster Max": 55,
+  "Creature Max": 10,
+  "Ambient Max": 15,
+  "Water Creature Max": 5,
+  "Remove All Mobs From All Biomes": false,
+  "Remove All Mobs From Biomes": [],
+  "Remove Mobs From All Biomes": ["Creeper", "Zombie", "Skeleton", "Witch", "Slime", "Enderman", "Spider"],
+  "Spawns": [
+		{
+			"Entity": "Creeper",
+			"Remove From All Biomes": true,
+			"Weight": 10,
+			"Min": 1,
+			"Max": 5,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				21,
+				22,
+				89,
+				92
+			]
+		},
+		{
+			"Entity": "Zombie",
+			"Remove From All Biomes": true,
+			"Weight": 100,
+			"Min": 1,
+			"Max": 5,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				6,
+				21,
+				22,
+				29,
+				43,
+				44,
+				53,
+				54,
+				56,
+				70,
+				75,
+				85,
+				90,
+				91,
+				92,
+				105,
+				107,
+				194
+			]
+		},
+		{
+			"Entity": "Skeleton",
+			"Remove From All Biomes": true,
+			"Weight": 30,
+			"Min": 1,
+			"Max": 5,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				6,
+				21,
+				22,
+				29,
+				43,
+				44,
+				53,
+				54,
+				56,
+				70,
+				75,
+				85,
+				91,
+				92,
+				105,
+				107,
+				194
+			]
+		},
+		{
+			"Entity": "Witch",
+			"Remove From All Biomes": true,
+			"Weight": 10,
+			"Min": 1,
+			"Max": 2,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				6,
+				43,
+				44,
+				53,
+				54,
+				56,
+				70,
+				74,
+				75,
+				92,
+				107,
+				193,
+				194
+			]
+		},
+		{
+			"Entity": "Slime",
+			"Remove From All Biomes": true,
+			"Weight": 100,
+			"Min": 1,
+			"Max": 2,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				6,
+				43,
+				44,
+				54,
+				68,
+				70,
+				85,
+				92,
+				105
+			]
+		},
+		{
+			"Entity": "Enderman",
+			"Remove From All Biomes": true,
+			"Weight": 10,
+			"Min": 1,
+			"Max": 5,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				9,
+				52,
+				74,
+				75,
+				76,
+				115,
+				194
+			]
+		},
+		{
+			"Entity": "Spider",
+			"Remove From All Biomes": true,
+			"Weight": 100,
+			"Min": 1,
+			"Max": 5,
+			"Types": [
+					"monster"
+			],
+			"Modify Only": false,
+			"Add To Biomes": [
+				29,
+				56,
+				75,
+				107
+			]
+		}
+  ],
+  "Blacklist All Entities": false,
+  "Blacklist All Types": false,
+  "Dimension Blacklist": {},
+  "All Dimension Blacklist": [],
+  "Dimension Whitelist": {}
+}
