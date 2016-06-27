@@ -1,3 +1,9 @@
+## 0.7.1
+
+### Changes
+* Removed biome spawn restrictions
+
+
 ## 0.7.0
 
 ### Changes
