@@ -40,4 +40,7 @@ recipes.addShaped(<ImmersiveEngineering:mold:0>,
 [null, <ImmersiveEngineering:metal:38>, null]]);
 
 Crucible.addRecipe("ALCHEMICALMANUFACTURE", <Railcraft:cube:7>, <minecraft:stone>, "lux 4");
+Crucible.addRecipe("ALCHEMICALMANUFACTURE", <Railcraft:brick.quarried:5>, <minecraft:cobblestone>, "lux 6");
+
 Crucible.addRecipe("ALCHEMICALMANUFACTURE", <Railcraft:cube:6>, <minecraft:stone>, "tenebrae 4");
+Crucible.addRecipe("ALCHEMICALMANUFACTURE", <Railcraft:brick.abyssal:5>, <minecraft:cobblestone>, "tenebrae 6");
