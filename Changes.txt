@@ -1,3 +1,14 @@
+## 0.8
+
+### Changes
+* Slowed Enviromine effects 1/2 (May slow more in future)
+* Added cauldron recipes for Quarried and Abyssal stone
+* Changed recipe for Block Breaker
+
+### Removed
+* Advanced Spawn Control
+* Zombie Awareness
+
 ## 0.7.1
 
 ### Changes

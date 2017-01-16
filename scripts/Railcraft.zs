@@ -1,4 +1,5 @@
 import mods.immersiveengineering.MetalPress;
+import mods.thaumcraft.Crucible;
 
 recipes.remove(<Railcraft:part.rail:1>);
 recipes.remove(<Railcraft:part.rail:3>);
@@ -37,3 +38,6 @@ recipes.addShaped(<ImmersiveEngineering:mold:0>,
 [[null, <ImmersiveEngineering:metal:38>, null],
 [<ImmersiveEngineering:metal:38>, <Railcraft:part.plate:3>, <ImmersiveEngineering:metal:38>],
 [null, <ImmersiveEngineering:metal:38>, null]]);
+
+Crucible.addRecipe("ALCHEMICALMANUFACTURE", <Railcraft:cube:7>, <minecraft:stone>, "lux 4");
+Crucible.addRecipe("ALCHEMICALMANUFACTURE", <Railcraft:cube:6>, <minecraft:stone>, "tenebrae 4");

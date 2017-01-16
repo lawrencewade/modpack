@@ -7,19 +7,7 @@ NEI.hide(<OpenBlocks:generic:*>);
 NEI.hide(<OpenBlocks:genericUnstackable:*>);
 recipes.addShaped(<OpenBlocks:blockbreaker>,
 [[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-[<ImmersiveEngineering:drillhead:0>, <minecraft:redstone>, <minecraft:cobblestone>],
-[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-recipes.addShaped(<OpenBlocks:blockbreaker>,
-[[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-[<arcane_engineering:drillhead:0>, <minecraft:redstone>, <minecraft:cobblestone>],
-[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-recipes.addShaped(<OpenBlocks:blockbreaker>,
-[[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-[<ImmersiveEngineering:drillhead:1>, <minecraft:redstone>, <minecraft:cobblestone>],
-[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-recipes.addShaped(<OpenBlocks:blockbreaker>,
-[[<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-[<arcane_engineering:drillhead:1>, <minecraft:redstone>, <minecraft:cobblestone>],
+[<Metallurgy:steel.pickaxe>, <minecraft:redstone>, <minecraft:cobblestone>],
 [<ore:ingotSteel>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
 
 # Glider Wings - Uses tough fabric (4) and treated sticks (0)
